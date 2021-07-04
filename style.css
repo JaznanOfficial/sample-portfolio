@@ -1,4 +1,5 @@
 body{
+    max-width: 100%;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
@@ -8,6 +9,11 @@ body{
 h1{
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
+    color: rgba(0, 110, 253, 0.719);
+}
+
+h3{
+    color: rgb(232 77 185);
 }
 
 .orange-color{
@@ -52,4 +58,36 @@ section{
 
 .half-width-right img{
     width: 80%;
+}
+#experience{
+    padding-left: 5%;
+
+}
+
+#exp-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;   
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 50px gray;
+    padding: 60px 30px ;
+    margin: 0 50px;
+    border-radius: 10px;
+}
+
+#rd-border-img{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#ld-border-img{
+    border-left: 10px solid;
+    border-image: linear-gradient( tomato,pink);
+    border-image-slice: 1;
+}
+
+.h1-font{
+    font-size: 45px;
 }
