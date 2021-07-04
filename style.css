@@ -91,3 +91,20 @@ section{
 .h1-font{
     font-size: 45px;
 }
+
+#last-div{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(140, 0, 255),rgb(255, 1, 234));
+    border-image-slice: 1;
+    margin: auto;
+    margin-bottom: 150px;
+}
+#last-div h2{
+    color:navy;
+}
+
+footer{
+    text-align: center;
+    color: navy;
+    font-weight: bolder;
+}
